@@ -1,6 +1,6 @@
 mana_abilities:
   auraskills/replenish:
-    enabled: true
+    enabled: false
     base_value: 5.0
     value_per_level: 5.0
     base_cooldown: 200
@@ -48,7 +48,7 @@ mana_abilities:
     sneak_offhand_bypass: true
     haste_level: 10
   auraskills/sharp_hook:
-    enabled: true
+    enabled: false
     base_value: 0.5
     value_per_level: 0.5
     base_cooldown: 2
@@ -103,7 +103,7 @@ mana_abilities:
     max_level: 0
     enable_particles: true
   auraskills/lightning_blade:
-    enabled: true
+    enabled: false
     base_value: 5.0
     value_per_level: 5.0
     base_cooldown: 200
