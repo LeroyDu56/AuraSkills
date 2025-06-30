@@ -732,8 +732,8 @@ skills:
     name: Defenseur
     desc: "Subissez des dégâts d'un joueur ou d'un mobs pour gagnez de l'{xp_unit} Defenseur"
   fighting:
-    name: Combatant
-    desc: "Combattez les mobs avec une arme de corps à corps pour gagnez de l'{xp_unit} Combatant"
+    name: Combattant
+    desc: "Combattez les mobs avec une arme de corps à corps pour gagnez de l'{xp_unit} Combattant"
   endurance:
     name: Endurance
     desc: "Marchez et courez pour gagnez de l'{xp_unit} Endurance"

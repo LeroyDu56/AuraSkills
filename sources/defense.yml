@@ -1,8 +1,12 @@
+# Configuration Defense pour exclure les membres de town/nation/alliés
+# Compatible avec Towny 0.101.1.0
+
 default:
   type: damage
   excluded_cause: fall
   must_survive: true
   use_original_damage: true
+  
 sources:
   mob_damage:
     damager: mob
@@ -11,9 +15,11 @@ sources:
       material: zombie_head
     unit: '{sources.units.damage}'
     include_projectiles: true
+    
+  # Dégâts de joueurs avec exclusions Towny
   player_damage:
     damager: player
-    xp: 2
+    xp: 0.2
     menu_item:
       material: player_head
     unit: '{sources.units.damage}'

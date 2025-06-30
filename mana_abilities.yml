@@ -1,4 +1,5 @@
 mana_abilities:
+  # FARMING - Replenish désactivé dans votre config
   auraskills/replenish:
     enabled: false
     base_value: 5.0
@@ -7,7 +8,7 @@ mana_abilities:
     cooldown_per_level: -5
     base_mana_cost: 20
     mana_cost_per_level: 12
-    unlock: 6
+    unlock: 50
     level_up: 6
     max_level: 0
     require_sneak: false
@@ -16,6 +17,8 @@ mana_abilities:
     replant_delay: 4
     show_particles: true
     prevent_unripe_break: true
+
+  # FORAGING - Treecapitator activé
   auraskills/treecapitator:
     enabled: true
     base_value: 5.0
@@ -24,7 +27,7 @@ mana_abilities:
     cooldown_per_level: -5
     base_mana_cost: 20
     mana_cost_per_level: 12
-    unlock: 6
+    unlock: 50
     level_up: 6
     max_level: 0
     require_sneak: false
@@ -32,6 +35,8 @@ mana_abilities:
     sneak_offhand_bypass: true
     max_blocks_multiplier: 1
     give_xp: true
+
+  # MINING - Speed Mine activé
   auraskills/speed_mine:
     enabled: true
     base_value: 10.0
@@ -40,13 +45,15 @@ mana_abilities:
     cooldown_per_level: -5
     base_mana_cost: 20
     mana_cost_per_level: 12
-    unlock: 6
+    unlock: 50
     level_up: 6
     max_level: 0
     require_sneak: false
     check_offhand: true
     sneak_offhand_bypass: true
     haste_level: 10
+
+  # FISHING - Sharp Hook désactivé dans votre config
   auraskills/sharp_hook:
     enabled: false
     base_value: 0.5
@@ -55,12 +62,14 @@ mana_abilities:
     cooldown_per_level: -0.1
     base_mana_cost: 5
     mana_cost_per_level: 2
-    unlock: 6
+    unlock: 50
     level_up: 6
     max_level: 0
     display_damage_with_scaling: true
     enable_sound: true
     disable_health_check: false
+
+  # EXCAVATION - Terraform activé
   auraskills/terraform:
     enabled: true
     base_value: 5.0
@@ -69,13 +78,15 @@ mana_abilities:
     cooldown_per_level: -5
     base_mana_cost: 20
     mana_cost_per_level: 12
-    unlock: 6
+    unlock: 50
     level_up: 6
     max_level: 0
     require_sneak: false
     check_offhand: true
     sneak_offhand_bypass: true
     max_blocks: 61
+
+  # ARCHERY - Charged Shot activé
   auraskills/charged_shot:
     enabled: true
     base_value: 0.5
@@ -84,12 +95,14 @@ mana_abilities:
     cooldown_per_level: 0
     base_mana_cost: 10
     mana_cost_per_level: 5
-    unlock: 6
+    unlock: 50
     level_up: 6
     max_level: 0
     enable_message: true
     enable_sound: true
     always_enabled: false
+
+  # DEFENSE - Absorption activé
   auraskills/absorption:
     enabled: true
     base_value: 2.0
@@ -98,10 +111,12 @@ mana_abilities:
     cooldown_per_level: -5
     base_mana_cost: 10
     mana_cost_per_level: 10
-    unlock: 6
+    unlock: 50
     level_up: 6
     max_level: 0
     enable_particles: true
+
+  # FIGHTING - Lightning Blade désactivé dans votre config
   auraskills/lightning_blade:
     enabled: false
     base_value: 5.0
@@ -112,10 +127,11 @@ mana_abilities:
     mana_cost_per_level: 12
     base_duration: 5.0
     duration_per_level: 4.0
-    unlock: 6
+    unlock: 50
     level_up: 6
     max_level: 0
     require_sneak: false
     check_offhand: true
     sneak_offhand_bypass: true
+
 file_version: 3
