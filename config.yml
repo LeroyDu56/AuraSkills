@@ -79,23 +79,23 @@ hooks:
   Nexo:
     enabled: true
 action_bar:
-  enabled: true          # MODIFIÉ: false → true (meilleur feedback visuel)
-  idle: false            # MODIFIÉ: true → false (moins de spam)
+  enabled: true
+  idle: false
   ability: true
-  xp: true               # MODIFIÉ: false → true (voir gains XP)
-  maxed: true            # MODIFIÉ: false → true (voir compétences maxées)
-  update_period: 10      # MODIFIÉ: 5 → 10 (moins de lag)
-  round_xp: true         # MODIFIÉ: false → true (plus lisible)
+  xp: false
+  maxed: false
+  update_period: 5
+  round_xp: false
   placeholder_api: true
   use_suffix: true
   format_last: false
-  update_async: true     # MODIFIÉ: false → true (performance)
+  update_async: false
 boss_bar:
   enabled: true
   mode: single
-  stay_time: 120         # MODIFIÉ: 60 → 120 (plus visible, 2 minutes)
-  update_every: 2        # MODIFIÉ: 1 → 2 (moins de lag)
-  round_xp: true         # MODIFIÉ: false → true (plus lisible)
+  stay_time: 60
+  update_every: 1
+  round_xp: false
   display_maxed: true
   placeholder_api: true
   use_suffix: true
@@ -117,16 +117,16 @@ boss_bar:
   - FORGING YELLOW PROGRESS
   xp_format: '#.#'
   level_xp_format: '0'
-  percent_format: '#.#'  # MODIFIÉ: '#.##' → '#.#' (plus simple)
+  percent_format: '#.##'
   money_format: '0.00'
   animate_progress: true
 jobs:
-  enabled: false         # GARDÉ: false (évite inflation or sur serveur vanilla)
+  enabled: true
   selection:
     require_selection: true
     default_job_limit: 2
-    disable_unselected_xp: false
-    cooldown_sec: 0
+    disable_unselected_xp: true
+    cooldown_sec: 604800
   income:
     use_xp: true
     use_expression: false
@@ -139,39 +139,39 @@ jobs:
       interval_ms: 2000
       display_individual: false
 anti_afk:
-  enabled: true          # MODIFIÉ: false → true (éviter exploitation)
-  logging_enabled: false # MODIFIÉ: true → false (moins de logs)
-  log_threshold: min_count*6  # MODIFIÉ: min_count*4 → min_count*6
+  enabled: false
+  logging_enabled: true
+  log_threshold: min_count*4
   checks:
     block_a:
       enabled: true
-      min_count: 150     # MODIFIÉ: 100 → 150 (plus strict)
+      min_count: 100
     damage_a:
       enabled: true
       max_distance: 0.5
-      min_count: 20      # MODIFIÉ: 15 → 20
+      min_count: 15
     damage_b:
       enabled: true
-      min_count: 8       # MODIFIÉ: 5 → 8
+      min_count: 5
     damage_c:
       enabled: true
-      min_count: 60      # MODIFIÉ: 40 → 60
+      min_count: 40
     entity_a:
       enabled: true
       max_distance: 0.5
-      min_count: 75      # MODIFIÉ: 50 → 75
+      min_count: 50
     entity_b:
       enabled: true
-      min_count: 75      # MODIFIÉ: 50 → 75
+      min_count: 50
     entity_c:
       enabled: true
-      min_count: 150     # MODIFIÉ: 100 → 150
+      min_count: 100
     fishing_a:
       enabled: true
-      min_count: 15      # MODIFIÉ: 10 → 15
+      min_count: 10
 enable_roman_numerals: false
 damage_holograms:
-  enabled: true          # MODIFIÉ: false → true (feedback visuel)
+  enabled: false
   scaling: true
   decimal:
     display_when_less_than: 1
@@ -181,13 +181,13 @@ damage_holograms:
     y: 0.4
     z: 0.4
     random:
-      enabled: true      # MODIFIÉ: false → true (plus dynamique)
-      x_min: -0.3        # MODIFIÉ: -0.5 → -0.3 (moins extrême)
-      x_max: 0.3         # MODIFIÉ: 0.5 → 0.3
+      enabled: false
+      x_min: -0.5
+      x_max: 0.5
       y_min: 0
-      y_max: 0.2         # MODIFIÉ: 0 → 0.2 (variation verticale)
-      z_min: -0.3        # MODIFIÉ: -0.5 → -0.3
-      z_max: 0.3         # MODIFIÉ: 0.5 → 0.3
+      y_max: 0
+      z_min: -0.5
+      z_max: 0.5
   colors:
     default: gray
     critical:
@@ -202,8 +202,8 @@ damage_holograms:
       - blue
       - dark_blue
 leaderboards:
-  update_period: 12000   # MODIFIÉ: 6000 → 12000 (10min → 20min, moins de lag)
-  update_delay: 12000    # MODIFIÉ: 6000 → 12000
+  update_period: 6000
+  update_delay: 6000
 start_level: 0
 enable_skill_commands: true
 check_block_replace:
@@ -222,19 +222,19 @@ on_death:
   reset_xp: false
 auto_save:
   enabled: true
-  interval_ticks: 6000   # MODIFIÉ: 12000 → 6000 (10min → 5min, plus sécurisé)
+  interval_ticks: 12000
 leveler:
   title:
     enabled: true
-    fade_in: 10          # MODIFIÉ: 5 → 10 (transition plus douce)
-    stay: 60             # MODIFIÉ: 80 → 60 (moins long)
-    fade_out: 10         # MODIFIÉ: 5 → 10 (transition plus douce)
+    fade_in: 5
+    stay: 80
+    fade_out: 5
   sound:
     enabled: true
     type: ENTITY_PLAYER_LEVELUP
     category: MASTER
-    volume: 0.7          # MODIFIÉ: 1.0 → 0.7 (moins fort)
-    pitch: 0.7           # MODIFIÉ: 0.5 → 0.7 (plus agréable)
+    volume: 1.0
+    pitch: 0.5
   double_check_delay: 20
 mana:
   enabled: false
@@ -244,17 +244,17 @@ modifier:
     equip_blocked_materials:
     - EXAMPLE
     timer:
-      enabled: true      # MODIFIÉ: false → true (vérifications actives)
-      check_period: 5    # MODIFIÉ: 3 → 5 (moins de lag)
+      enabled: false
+      check_period: 3
   item:
-    check_period: 5      # MODIFIÉ: 3 → 5 (moins de lag)
+    check_period: 3
     enable_off_hand: true
   multiplier:
     enabled: true
   auto_convert_from_legacy: false
   temporary:
     enabled: true
-    check_period: 40     # MODIFIÉ: 20 → 40 (moins de lag)
+    check_period: 20
 requirement:
   enabled: true
   override_global: false
