@@ -15,185 +15,185 @@ levels:
   3:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   6:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   9:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   12:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   15:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   18:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   21:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   24:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   27:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   33:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   36:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   39:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   42:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   45:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   48:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   51:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   54:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   57:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   60:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   63:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   66:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   69:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   72:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   75:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   78:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   81:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   84:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   87:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   93:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   96:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
   99:
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
 
   # === RÉCOMPENSES SPÉCIALES ===
   10:
     # 1 potion célérité 8min
     - type: command
       executor: console
-      command: 'givepotionhaste8 %player%'
+      command: 'givepotionhaste8 {player}'
 
   30:
     # 1 potion célérité 15min
     - type: command
       executor: console
-      command: 'givepotionhaste15 %player%'
+      command: 'givepotionhaste15 {player}'
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
 
   50:
     # 3 potions célérité 8min
     - type: command
       executor: console
-      command: 'givepotionhaste8 %player%'
+      command: 'givepotionhaste8 {player}'
     - type: command
       executor: console
-      command: 'givepotionhaste8 %player%'
+      command: 'givepotionhaste8 {player}'
     - type: command
       executor: console
-      command: 'givepotionhaste8 %player%'
+      command: 'givepotionhaste8 {player}'
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
 
   70:
     # 5 potions célérité 8min
     - type: command
       executor: console
-      command: 'givepotionhaste8 %player%'
+      command: 'givepotionhaste8 {player}'
     - type: command
       executor: console
-      command: 'givepotionhaste8 %player%'
+      command: 'givepotionhaste8 {player}'
     - type: command
       executor: console
-      command: 'givepotionhaste8 %player%'
+      command: 'givepotionhaste8 {player}'
     - type: command
       executor: console
-      command: 'givepotionhaste8 %player%'
+      command: 'givepotionhaste8 {player}'
     - type: command
       executor: console
-      command: 'givepotionhaste8 %player%'
+      command: 'givepotionhaste8 {player}'
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
 
   80:
     # Caisse dorée
     - type: command
       executor: console
-      command: 'cc give physical goldencrate 1 %player%'
+      command: 'cc give physical goldencrate 1 {player}'
 
   90:
     # Espace libre - exemple de récompense temporaire
@@ -206,13 +206,13 @@ levels:
         - '<gold>Niveau Foraging: 90'
     - type: command
       executor: console
-      command: 'cc give physical bucheroncrate 1 %player%'
+      command: 'cc give physical bucheroncrate 1 {player}'
 
   100:
     # Hache netherite légendaire (utilise la commande /giveaxe qui correspond)
     - type: command
       executor: console
-      command: 'giveaxe %player%'
+      command: 'giveaxe {player}'
     - type: command
       executor: console
-      command: 'cc give physical goldencrate 3 %player%'
+      command: 'cc give physical goldencrate 3 {player}'

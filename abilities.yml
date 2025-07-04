@@ -16,10 +16,10 @@ abilities:
     max_level: 0
   auraskills/scythe_master:
     enabled: true
-    base_value: 400.0
-    value_per_level: 2.0
+    base_value: 100.0
+    value_per_level: 100.0
     unlock: 50
-    level_up: 5
+    level_up: 4
     max_level: 0
   auraskills/geneticist:
     enabled: true
@@ -215,7 +215,7 @@ abilities:
   auraskills/piercing:
     enabled: true
     base_value: 3.0
-    value_per_level: 3.0
+    value_per_level: 1.0
     unlock: 66
     level_up: 5
     max_level: 0
@@ -291,8 +291,8 @@ abilities:
     max_level: 0
   auraskills/first_strike:
     enabled: true
-    base_value: 15.0
-    value_per_level: 5.0
+    base_value: 5.0
+    value_per_level: 1.0
     unlock: 66
     level_up: 5
     max_level: 0

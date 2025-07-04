@@ -15,176 +15,176 @@ levels:
   3:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   6:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   9:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   12:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   15:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   18:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   21:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   24:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   27:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   33:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   36:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   39:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   42:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   45:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   48:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   51:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   54:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   57:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   60:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   63:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   66:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   69:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   72:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   75:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   78:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   81:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   84:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   87:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   93:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   96:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
   99:
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
 
   # === RÉCOMPENSES SPÉCIALES ===
   10:
     # 1 potion de combat
     - type: command
       executor: console
-      command: 'givepotioncombat %player%'
+      command: 'givepotioncombat {player}'
 
   30:
     # 5 potions défenseur
     - type: command
       executor: console
-      command: 'givepotiondefenseur %player%'
+      command: 'givepotiondefenseur {player}'
     - type: command
       executor: console
-      command: 'givepotiondefenseur %player%'
+      command: 'givepotiondefenseur {player}'
     - type: command
       executor: console
-      command: 'givepotiondefenseur %player%'
+      command: 'givepotiondefenseur {player}'
     - type: command
       executor: console
-      command: 'givepotiondefenseur %player%'
+      command: 'givepotiondefenseur {player}'
     - type: command
       executor: console
-      command: 'givepotiondefenseur %player%'
+      command: 'givepotiondefenseur {player}'
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
 
   50:
     # 5 potions de combat
     - type: command
       executor: console
-      command: 'givepotioncombat %player%'
+      command: 'givepotioncombat {player}'
     - type: command
       executor: console
-      command: 'givepotioncombat %player%'
+      command: 'givepotioncombat {player}'
     - type: command
       executor: console
-      command: 'givepotioncombat %player%'
+      command: 'givepotioncombat {player}'
     - type: command
       executor: console
-      command: 'givepotioncombat %player%'
+      command: 'givepotioncombat {player}'
     - type: command
       executor: console
-      command: 'givepotioncombat %player%'
+      command: 'givepotioncombat {player}'
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
 
   70:
     # 3 têtes de wither
@@ -198,13 +198,13 @@ levels:
         - '<gold>Niveau Fighting: 70'
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
 
   80:
     # Caisse dorée
     - type: command
       executor: console
-      command: 'cc give physical goldencrate 1 %player%'
+      command: 'cc give physical goldencrate 1 {player}'
 
   90:
     # Espace libre - exemple de récompense temporaire
@@ -217,28 +217,13 @@ levels:
         - '<gold>Niveau Fighting: 90'
     - type: command
       executor: console
-      command: 'cc give physical combatcrate 1 %player%'
+      command: 'cc give physical combatcrate 1 {player}'
 
   100:
-    # Épée netherite légendaire
-    - type: item
-      material: netherite_sword
-      amount: 1
-      display_name: '<dark_red><bold>Lame du Conquérant'
-      lore:
-        - '<gray>L''épée des grands guerriers'
-        - '<gold>Forgée dans le sang des ennemis'
-        - '<red>Fauche les âmes comme les blés'
-        - '<gold>Niveau Fighting: 100'
-      enchantments:
-        - sharpness:5
-        - looting:4
-        - unbreaking:3
-        - mending:1
-        - fire_aspect:2
-        - sweeping_edge:3
-      flags:
-        - hide_enchants
+    # Épée netherite légendaire via commande
     - type: command
       executor: console
-      command: 'cc give physical goldencrate 3 %player%'
+      command: 'givesword {player}'
+    - type: command
+      executor: console
+      command: 'cc give physical goldencrate 3 {player}'

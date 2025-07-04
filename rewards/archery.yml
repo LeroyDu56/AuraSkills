@@ -15,176 +15,176 @@ levels:
   3:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   6:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   9:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   12:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   15:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   18:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   21:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   24:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   27:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   33:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   36:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   39:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   42:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   45:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   48:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   51:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   54:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   57:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   60:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   63:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   66:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   69:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   72:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   75:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   78:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   81:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   84:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   87:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   93:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   96:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
   99:
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
 
   # === RÉCOMPENSES SPÉCIALES ===
   10:
     # 64 flèches dégâts 2 (utilise givearrowdeath)
     - type: command
       executor: console
-      command: 'givearrowdeath %player%'
+      command: 'givearrowdeath {player}'
 
   30:
     # 128 flèches nausée (2x64)
     - type: command
       executor: console
-      command: 'givearrownausea %player%'
+      command: 'givearrownausea {player}'
     - type: command
       executor: console
-      command: 'givearrownausea %player%'
+      command: 'givearrownausea {player}'
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
 
   50:
     # 128 flèches cécité (2x64)
     - type: command
       executor: console
-      command: 'givearrowblindness %player%'
+      command: 'givearrowblindness {player}'
     - type: command
       executor: console
-      command: 'givearrowblindness %player%'
+      command: 'givearrowblindness {player}'
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
 
   70:
     # 128 flèches dégâts 3 (2x64) - utilisera givearrowdeath qui donne dégâts 3
     - type: command
       executor: console
-      command: 'givearrowdeath %player%'
+      command: 'givearrowdeath {player}'
     - type: command
       executor: console
-      command: 'givearrowdeath %player%'
+      command: 'givearrowdeath {player}'
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
 
   80:
     # Caisse dorée
     - type: command
       executor: console
-      command: 'cc give physical goldencrate 1 %player%'
+      command: 'cc give physical goldencrate 1 {player}'
 
   90:
     # Espace à remplir - exemple de récompense temporaire
@@ -197,28 +197,13 @@ levels:
         - '<gold>Niveau Archery: 90'
     - type: command
       executor: console
-      command: 'cc give physical archercrate 1 %player%'
+      command: 'cc give physical archercrate 1 {player}'
 
   100:
-    # Arc légendaire full enchanté
-    - type: item
-      material: bow
-      amount: 1
-      display_name: '<red><bold>Cœur-Perceur Légendaire'
-      lore:
-        - '<gray>L''arc ultime des maîtres archers'
-        - '<gold>Forgé dans les flammes éternelles'
-        - '<red>Pouvoir destructeur absolu'
-        - '<gold>Niveau Archery: 100'
-      enchantments:
-        - power:7
-        - infinity:1
-        - flame:1
-        - punch:2
-        - unbreaking:3
-        - mending:1
-      flags:
-        - hide_enchants
+    # Arc légendaire full enchanté via commande
     - type: command
       executor: console
-      command: 'cc give physical goldencrate 3 %player%'
+      command: 'givebow {player}'
+    - type: command
+      executor: console
+      command: 'cc give physical goldencrate 3 {player}'

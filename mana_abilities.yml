@@ -23,7 +23,7 @@ mana_abilities:
     enabled: true
     base_value: 5.0
     value_per_level: 5.0
-    base_cooldown: 200
+    base_cooldown: 900
     cooldown_per_level: -5
     base_mana_cost: 20
     mana_cost_per_level: 12
@@ -41,7 +41,7 @@ mana_abilities:
     enabled: true
     base_value: 10.0
     value_per_level: 5.0
-    base_cooldown: 200
+    base_cooldown: 900
     cooldown_per_level: -5
     base_mana_cost: 20
     mana_cost_per_level: 12
