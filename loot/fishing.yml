@@ -1,112 +1,231 @@
 type: fishing
 pools:
   rare:
-    base_chance: 2
+    base_chance: 3  # Augmenté de 2 à 3% pour plus de récompenses
     selection_priority: 1
     loot:
+      # === MATÉRIAUX DE BASE AQUATIQUES ===
       - type: item
         material: iron_ingot
         weight: 15
-        amount: 1
+        amount: 1-2
       - type: item
         material: gold_nugget
-        weight: 10
-        amount: 1-4
+        weight: 12
+        amount: 2-5
       - type: item
         material: coal
         weight: 10
-        amount: 1-2
+        amount: 1-3
       - type: item
         material: bone
         weight: 15
-        amount: 1-3
+        amount: 1-4
+      
+      # === MATÉRIAUX MARINS ===
       - type: item
         material: prismarine_shard
-        weight: 10
-        amount: 1-4
+        weight: 12
+        amount: 2-5
       - type: item
         material: prismarine_crystals
+        weight: 12
+        amount: 2-5
+      - type: item
+        material: sea_lantern
+        weight: 8
+        amount: 1-2
+      - type: item
+        material: kelp
         weight: 10
-        amount: 1-4
+        amount: 3-8
+      - type: item
+        material: nautilus_shell
+        weight: 5
+        amount: 1
+      
+      # === OBJETS UTILES ===
       - type: item
         material: slime_ball
         weight: 10
-        amount: 1-3
+        amount: 1-4
+      - type: item
+        material: experience_bottle
+        weight: 8
+        amount: 1-2
+      - type: item
+        material: emerald
+        weight: 6
+        amount: 1
+      
   epic:
-    base_chance: 0.5
+    base_chance: 1  # Augmenté de 0.5 à 1% pour plus d'épique
     selection_priority: 2
     loot:
+      # === MATÉRIAUX PRÉCIEUX ===
       - type: item
         material: diamond
-        weight: 10
-        amount: 1
+        weight: 12
+        amount: 1-2
       - type: item
         material: gold_ingot
-        weight: 10
-        amount: 1-3
+        weight: 12
+        amount: 1-4
       - type: item
-        material: coal_block
+        material: emerald
         weight: 10
+        amount: 2-4
+      
+      # === BLOCS MARINS RARES ===
+      - type: item
+        material: prismarine_bricks
+        weight: 8
+        amount: 2-6
+      - type: item
+        material: dark_prismarine
+        weight: 8
+        amount: 2-6
+      - type: item
+        material: sea_lantern
+        weight: 10
+        amount: 3-8
+      - type: item
+        material: sponge
+        weight: 5
+        amount: 1-2
+      
+      # === OBJETS SPÉCIAUX MARINS ===
+      - type: item
+        material: heart_of_the_sea
+        weight: 3
         amount: 1
       - type: item
-        material: bone_block
-        weight: 10
+        material: nautilus_shell
+        weight: 8
+        amount: 2-4
+      - type: item
+        material: turtle_egg
+        weight: 4
         amount: 1-2
+      
+      # === ENCHANTEMENTS ET LIVRES ===
       - type: item
-        material: prismarine_shard
-        weight: 7
-        amount: 3-7
+        material: enchanted_book
+        weight: 8
+        amount: 1
+        enchantments:
+          - aqua_affinity:1
       - type: item
-        material: prismarine_crystals
-        weight: 7
-        amount: 3-7
+        material: enchanted_book
+        weight: 8
+        amount: 1
+        enchantments:
+          - respiration:3
       - type: item
-        material: slime_block
-        weight: 7
-        amount: 1-2
+        material: enchanted_book
+        weight: 6
+        amount: 1
+        enchantments:
+          - depth_strider:3
       - type: item
-        material: tipped_arrow
-        weight: 1
-        amount: 2-5
-        potion_data:
-          type: weakness
+        material: enchanted_book
+        weight: 4
+        amount: 1
+        enchantments:
+          - luck_of_the_sea:3
+      
+      # === ÉQUIPEMENTS ENCHANTÉS ===
       - type: item
-        material: tipped_arrow
-        weight: 1
-        amount: 2-5
-        potion_data:
-          type: slowness
+        material: fishing_rod
+        weight: 3
+        amount: 1
+        enchantments:
+          - luck_of_the_sea:2
+          - lure:2
+          - unbreaking:2
+        display_name: '<blue><bold>Canne Enchantée des Profondeurs'
+        lore:
+          - '<gray>Trouvée dans les abysses'
+          - '<aqua>Chance de la mer améliorée'
+      
+      # === ARMURES AQUATIQUES ===
       - type: item
-        material: tipped_arrow
-        weight: 1
-        amount: 2-5
-        potion_data:
-          type: turtle_master
-      - type: item
-        material: tipped_arrow
-        weight: 1
-        amount: 2-5
-        potion_data:
-          type: water_breathing
-      - type: item
-        material: tipped_arrow
-        weight: 1
-        amount: 2-5
-        potion_data:
-          type: poison
-      - type: item
-        material: tipped_arrow
-        weight: 1
-        amount: 2-5
-        potion_data:
-          type: instant_damage
-      - type: item
-        material: tipped_arrow
-        weight: 1
-        amount: 2-5
-        potion_data:
-          type: regen
-      - type: item
-        material: spectral_arrow
+        material: turtle_helmet
         weight: 2
-        amount: 2-5
+        amount: 1
+        enchantments:
+          - respiration:2
+          - aqua_affinity:1
+        display_name: '<green><bold>Casque de Plongée'
+        lore:
+          - '<gray>Protection sous-marine'
+      
+      # === OBJETS D'EXPÉRIENCE ===
+      - type: item
+        material: experience_bottle
+        weight: 6
+        amount: 3-6
+      
+  legendary:
+    base_chance: 0.2  # Pool légendaire très rare
+    selection_priority: 3
+    loot:
+      # === OBJETS ULTRA RARES ===
+      - type: item
+        material: netherite_ingot
+        weight: 5
+        amount: 1
+      - type: item
+        material: totem_of_undying
+        weight: 3
+        amount: 1
+      - type: item
+        material: elytra
+        weight: 1
+        amount: 1
+        enchantments:
+          - unbreaking:2
+        display_name: '<gold><bold>Ailes des Profondeurs'
+        lore:
+          - '<gray>Ailes mystiques des océans'
+          - '<aqua>Trouvée dans les abysses'
+      
+      # === TRIDENT LÉGENDAIRE ===
+      - type: item
+        material: trident
+        weight: 2
+        amount: 1
+        enchantments:
+          - loyalty:2
+          - impaling:4
+          - unbreaking:2
+        display_name: '<dark_aqua><bold>Trident Ancien'
+        lore:
+          - '<gray>Arme des gardiens des océans'
+          - '<blue>Pouvoir ancestral'
+      
+      # === ÉQUIPEMENTS LÉGENDAIRES ===
+      - type: item
+        material: fishing_rod
+        weight: 1
+        amount: 1
+        enchantments:
+          - luck_of_the_sea:4
+          - lure:4
+          - unbreaking:3
+          - mending:1
+        display_name: '<gold><bold>Canne du Léviathan'
+        lore:
+          - '<gray>Canne légendaire des maîtres'
+          - '<gold>Attire les créatures légendaires'
+          - '<aqua>Bénédiction des océans'
+      
+      # === BLOCS ULTRA RARES ===
+      - type: item
+        material: beacon
+        weight: 1
+        amount: 1
+        display_name: '<yellow><bold>Phare des Profondeurs'
+        lore:
+          - '<gray>Balise des navires perdus'
+          - '<yellow>Lumière éternelle'

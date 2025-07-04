@@ -36,6 +36,7 @@ items:
 templates:
   skill:
     contexts:
+      # === COMPÉTENCES ACTIVÉES UNIQUEMENT ===
       archery:
         group: first_row
         order: 1
@@ -46,15 +47,6 @@ templates:
         material: iron_sword
         flags:
           - hide_attributes
-      defense:
-        group: first_row
-        order: 3
-        material: chainmail_chestplate
-        flags: hide_attributes
-      endurance:
-        group: first_row
-        order: 4
-        material: golden_apple
       farming:
         group: second_row
         order: 1
@@ -77,35 +69,17 @@ templates:
         group: second_row
         order: 4
         material: fishing_rod
-      excavation:
-        group: second_row
-        order: 5
-        material: iron_shovel
-        flags:
-          - hide_attributes
-      agility:
-        group: third_row
-        order: 1
-        material: feather
-      alchemy:
-        group: third_row
-        order: 2
-        material: potion
-        potion_data:
-          type: regen
-        flags:
-          - hide_potion_effects
       enchanting:
         group: third_row
-        order: 3
+        order: 1
         material: enchanting_table
       sorcery:
         group: third_row
-        order: 4
+        order: 2
         material: blaze_rod
       healing:
         group: third_row
-        order: 5
+        order: 3
         material: splash_potion
         potion_data:
           type: instant_heal
@@ -113,20 +87,28 @@ templates:
           - hide_potion_effects
       forging:
         group: third_row
-        order: 6
+        order: 4
         material: anvil
+      
+      # === COMPÉTENCES SUPPRIMÉES ===
+      # defense: SUPPRIMÉ
+      # endurance: SUPPRIMÉ 
+      # agility: SUPPRIMÉ
+      # alchemy: SUPPRIMÉ
+      # excavation: SUPPRIMÉ
+      
     groups:
       first_row:
-        start: 1,0
-        end: 1,8
+        start: 1,1
+        end: 1,7
         align: center
       second_row:
-        start: 2,0
-        end: 2,8
+        start: 2,1
+        end: 2,7
         align: center
       third_row:
-        start: 3,0
-        end: 3,8
+        start: 3,1
+        end: 3,7
         align: center
     display_name: '<aqua>{skill} <dark_aqua>{level}'
     lore:

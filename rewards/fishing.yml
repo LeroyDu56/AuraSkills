@@ -9,4 +9,244 @@ patterns:
     value: 0.4
     pattern:
       interval: 2
+
 levels:
+  # === CLÉS PÊCHEUR TOUS LES 3 NIVEAUX ===
+  3:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  6:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  9:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  12:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  15:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  18:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  21:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  24:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  27:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  33:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  36:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  39:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  42:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  45:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  48:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  51:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  54:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  57:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  60:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  63:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  66:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  69:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  72:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  75:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  78:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  81:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  84:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  87:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  93:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  96:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+  99:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+
+  # === RÉCOMPENSES SPÉCIALES ===
+  10:
+    # Canne à pêche full enchantée
+    - type: item
+      material: fishing_rod
+      amount: 1
+      display_name: '<blue><bold>Canne du Pêcheur Expert'
+      lore:
+        - '<gray>Canne des maîtres de la pêche'
+        - '<aqua>Attire les trésors des profondeurs'
+        - '<gold>Niveau Fishing: 10'
+      enchantments:
+        - luck_of_the_sea:3
+        - lure:3
+        - unbreaking:3
+        - mending:1
+      flags:
+        - hide_enchants
+
+  30:
+    # Spawner Guardian (1 spawner)
+    - type: command
+      executor: console
+      command: 'silkspawners give %player% guardian 1'
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+
+  50:
+    # Spawner Elder Guardian (1 spawner)
+    - type: command
+      executor: console
+      command: 'silkspawners give %player% elder_guardian 1'
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+
+  70:
+    # Casque de tortue
+    - type: item
+      material: turtle_helmet
+      amount: 1
+      display_name: '<green><bold>Heaume de Tortue Marine'
+      lore:
+        - '<gray>Protection des créatures marines'
+        - '<aqua>Respiration aquatique naturelle'
+        - '<green>Carapace des anciens'
+        - '<gold>Niveau Fishing: 70'
+      enchantments:
+        - aqua_affinity:1
+        - respiration:3
+        - unbreaking:3
+        - mending:1
+        - protection:4
+      flags:
+        - hide_enchants
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+
+  80:
+    # Caisse dorée
+    - type: command
+      executor: console
+      command: 'cc give physical goldencrate 1 %player%'
+
+  90:
+    # Trident full enchanté
+    - type: item
+      material: trident
+      amount: 1
+      display_name: '<dark_aqua><bold>Trident de Poséidon'
+      lore:
+        - '<gray>Arme des dieux des océans'
+        - '<aqua>Maîtrise les tempêtes et les marées'
+        - '<blue>Pouvoir sur les créatures marines'
+        - '<gold>Niveau Fishing: 90'
+      enchantments:
+        - loyalty:3
+        - impaling:5
+        - channeling:1
+        - riptide:3
+        - unbreaking:3
+        - mending:1
+      flags:
+        - hide_enchants
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 %player%'
+
+  100:
+    # Super canne à pêche légendaire
+    - type: item
+      material: fishing_rod
+      amount: 1
+      display_name: '<gold><bold>Canne de lOcéan Éternel'
+      lore:
+        - '<gray>La canne légendaire des maîtres'
+        - '<aqua>Connectée aux profondeurs infinies'
+        - '<blue>Attire les créatures légendaires'
+        - '<yellow>Tissée avec les fils du destin'
+        - '<gold>Niveau Fishing: 100'
+      enchantments:
+        - luck_of_the_sea:5
+        - lure:5
+        - unbreaking:5
+        - mending:1
+        - curse_of_binding:1
+      flags:
+        - hide_enchants
+    - type: command
+      executor: console
+      command: 'cc give physical goldencrate 3 %player%'

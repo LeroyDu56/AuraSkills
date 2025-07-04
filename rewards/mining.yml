@@ -9,4 +9,227 @@ patterns:
     value: 1
     pattern:
       interval: 2
+
 levels:
+  # === CLÉS MINEUR TOUS LES 3 NIVEAUX ===
+  3:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  6:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  9:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  12:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  15:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  18:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  21:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  24:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  27:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  33:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  36:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  39:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  42:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  45:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  48:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  51:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  54:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  57:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  60:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  63:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  66:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  69:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  72:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  75:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  78:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  81:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  84:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  87:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  93:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  96:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+  99:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+
+  # === RÉCOMPENSES SPÉCIALES ===
+  10:
+    # 8 diamants
+    - type: item
+      material: diamond
+      amount: 8
+      display_name: '<aqua><bold>Diamant du Mineur'
+      lore:
+        - '<gray>Diamant extrait des profondeurs'
+        - '<gold>Niveau Mining: 10'
+
+  30:
+    # 1 lingot de netherite
+    - type: item
+      material: netherite_ingot
+      amount: 1
+      display_name: '<dark_purple><bold>Lingot de Netherite'
+      lore:
+        - '<gray>Métal des profondeurs infernales'
+        - '<gold>Niveau Mining: 30'
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+
+  50:
+    # 1 shulker box
+    - type: item
+      material: shulker_box
+      amount: 1
+      display_name: '<light_purple><bold>Boîte de Shulker'
+      lore:
+        - '<gray>Stockage dimensionnel portable'
+        - '<gold>Niveau Mining: 50'
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+
+  70:
+    # 1 bloc de netherite
+    - type: item
+      material: netherite_block
+      amount: 1
+      display_name: '<dark_purple><bold>Bloc de Netherite'
+      lore:
+        - '<gray>La richesse ultime du mineur'
+        - '<gold>Niveau Mining: 70'
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+
+  80:
+    # Caisse dorée
+    - type: command
+      executor: console
+      command: 'cc give physical goldencrate 1 %player%'
+
+  90:
+    # Boussole de portée +5
+    - type: item
+      material: compass
+      amount: 1
+      display_name: '<yellow><bold>Boussole de Portée'
+      lore:
+        - '<gray>Augmente la portée d''interaction'
+        - '<green>+5 blocs de portée'
+        - '<gold>Niveau Mining: 90'
+      enchantments:
+        - unbreaking:3
+        - mending:1
+      flags:
+        - hide_enchants
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 %player%'
+
+  100:
+    # Pioche netherite légendaire
+    - type: item
+      material: netherite_pickaxe
+      amount: 1
+      display_name: '<dark_red><bold>Brise-Roche Éternel'
+      lore:
+        - '<gray>La pioche des maîtres mineurs'
+        - '<gold>Forgée dans les flammes du Nether'
+        - '<dark_purple>Détruit la pierre comme du beurre'
+        - '<gold>Niveau Mining: 100'
+      enchantments:
+        - fortune:4
+        - efficiency:5
+        - unbreaking:3
+        - mending:1
+      flags:
+        - hide_enchants
+    - type: command
+      executor: console
+      command: 'cc give physical goldencrate 3 %player%'
