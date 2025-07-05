@@ -9,8 +9,8 @@ abilities:
     max_level: 0
   auraskills/farmer:
     enabled: true
-    base_value: 10.0
-    value_per_level: 10.0
+    base_value: 40.0
+    value_per_level: 40.0
     unlock: 25
     level_up: 5
     max_level: 0
@@ -40,15 +40,15 @@ abilities:
   # FORAGING - 2 abilities activées: niveaux 33, 66
   auraskills/lumberjack:
     enabled: true
-    base_value: 10.0
-    value_per_level: 10.0
+    base_value: 25.0
+    value_per_level: 25.0
     unlock: 33
     level_up: 5
     max_level: 0
   auraskills/forager:
     enabled: true
-    base_value: 10.0
-    value_per_level: 10.0
+    base_value: 25.0
+    value_per_level: 25.0
     unlock: 66
     level_up: 5
     max_level: 0
@@ -77,15 +77,15 @@ abilities:
   # MINING - 1 ability activée: niveau 50
   auraskills/lucky_miner:
     enabled: false
-    base_value: 5.0
-    value_per_level: 5.0
+    base_value: 15.0
+    value_per_level: 15.0
     unlock: '{start}+1'
     level_up: 5
     max_level: 0
   auraskills/miner:
     enabled: true
-    base_value: 10.0
-    value_per_level: 10.0
+    base_value: 22.0
+    value_per_level: 22.0
     unlock: 50
     level_up: 5
     max_level: 0
@@ -121,8 +121,8 @@ abilities:
     max_level: 5
   auraskills/fisher:
     enabled: true
-    base_value: 10.0
-    value_per_level: 10.0
+    base_value: 35.0
+    value_per_level: 35.0
     unlock: 50
     level_up: 5
     max_level: 0
@@ -200,8 +200,8 @@ abilities:
     delay_sec: 3
   auraskills/archer:
     enabled: true
-    base_value: 10.0
-    value_per_level: 10.0
+    base_value: 8.0
+    value_per_level: 8.0
     unlock: 33
     level_up: 5
     max_level: 0
@@ -277,8 +277,8 @@ abilities:
     enable_sound: true
   auraskills/fighter:
     enabled: true
-    base_value: 10.0
-    value_per_level: 10.0
+    base_value: 8.0
+    value_per_level: 8.0
     unlock: 33
     level_up: 5
     max_level: 0
@@ -443,8 +443,8 @@ abilities:
     max_level: 0
   auraskills/enchanter:
     enabled: true
-    base_value: 10.0
-    value_per_level: 10.0
+    base_value: 15.0
+    value_per_level: 15.0
     unlock: 40
     level_up: 5
     max_level: 0
@@ -474,8 +474,8 @@ abilities:
   # SORCERY - 2 abilities activées: niveaux 33, 66
   auraskills/sorcerer:
     enabled: true
-    base_value: 10.0
-    value_per_level: 10.0
+    base_value: 30.0
+    value_per_level: 30.0
     unlock: 33
     level_up: 5
     max_level: 0
@@ -490,8 +490,8 @@ abilities:
     max_level: 0
   auraskills/healer:
     enabled: true
-    base_value: 10.0
-    value_per_level: 10.0
+    base_value: 35.0
+    value_per_level: 35.0
     unlock: 40
     level_up: 5
     max_level: 0
@@ -530,8 +530,8 @@ abilities:
     max_level: 0
   auraskills/forger:
     enabled: true
-    base_value: 10.0
-    value_per_level: 10.0
+    base_value: 20.0
+    value_per_level: 20.0
     unlock: 50
     level_up: 5
     max_level: 0
