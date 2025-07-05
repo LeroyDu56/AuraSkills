@@ -205,7 +205,7 @@ levels:
     # 30 bouteilles d'expérience via commande give
     - type: command
       executor: console
-      command: 'give {player} experience_bottle 30'
+      command: 'lp user {player} permission set custom.craft.purification true'
     - type: command
       executor: console
       command: 'cc give physical enchantcrate 1 {player}'

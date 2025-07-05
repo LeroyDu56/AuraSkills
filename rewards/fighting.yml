@@ -210,10 +210,12 @@ levels:
       command: 'cc give physical goldencrate 1 {player}'
 
   90:
-    # 25 bouteilles d'expérience
     - type: command
       executor: console
-      command: 'give {player} experience_bottle 128'
+      command: 'lp user {player} permission set custom.craft.defense true'
+    - type: command
+      executor: console
+      command: 'lp user {player} permission set custom.craft.force true'
     - type: command
       executor: console
       command: 'cc give physical combatcrate 1 {player}'

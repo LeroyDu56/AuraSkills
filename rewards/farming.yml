@@ -233,13 +233,12 @@ levels:
 
   90:
     # Espace libre - exemple de récompense temporaire
-    - type: item
-      material: experience_bottle
-      amount: 16
-      display_name: '<yellow><bold>Récompense Temporaire'
-      lore:
-        - '<gray>En attente de définition'
-        - '<gold>Niveau Farming: 90'
+    - type: command
+      executor: console
+      command: 'lp user {player} permission set custom.craft.painhero true'
+    - type: command
+      executor: console
+      command: 'lp user {player} permission set custom.craft.soupe true'
     - type: command
       executor: console
       command: 'cc give physical farmercrate 1 {player}'

@@ -197,13 +197,12 @@ levels:
 
   90:
     # Espace libre - exemple de récompense temporaire
-    - type: item
-      material: experience_bottle
-      amount: 20
-      display_name: '<green><bold>Récompense Temporaire'
-      lore:
-        - '<gray>En attente de définition'
-        - '<gold>Niveau Foraging: 90'
+    - type: command
+      executor: console
+      command: 'lp user {player} permission set custom.craft.celerite15 true'
+    - type: command
+      executor: console
+      command: 'lp user {player} permission set custom.craft.celerite8 true'
     - type: command
       executor: console
       command: 'cc give physical bucheroncrate 1 {player}'

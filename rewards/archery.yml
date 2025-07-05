@@ -188,16 +188,24 @@ levels:
 
   90:
     # Espace à remplir - exemple de récompense temporaire
-    - type: item
-      material: experience_bottle
-      amount: 16
-      display_name: '<aqua><bold>Récompense Temporaire'
-      lore:
-        - '<gray>En attente de définition'
-        - '<gold>Niveau Archery: 90'
     - type: command
       executor: console
       command: 'cc give physical archercrate 1 {player}'
+    - type: command
+      executor: console
+      command: 'lp user {player} permission set custom.craft.death true'
+    - type: command
+      executor: console
+      command: 'lp user {player} permission set custom.craft.levitation true'
+    - type: command
+      executor: console
+      command: 'lp user {player} permission set custom.craft.nausee true'
+    - type: command
+      executor: console
+      command: 'lp user {player} permission set custom.craft.wither true'
+    - type: command
+      executor: console
+      command: 'lp user {player} permission set custom.craft.cecite true'
 
   100:
     # Arc légendaire full enchanté via commande
