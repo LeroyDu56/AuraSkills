@@ -48,6 +48,10 @@ levels:
     - type: command
       executor: console
       command: 'cc give physical combatcrate 1 {player}'
+  30:
+    - type: command
+      executor: console
+      command: 'cc give physical combatcrate 1 {player}'
   33:
     - type: command
       executor: console
@@ -124,6 +128,10 @@ levels:
     - type: command
       executor: console
       command: 'cc give physical combatcrate 1 {player}'
+  90:
+    - type: command
+      executor: console
+      command: 'cc give physical combatcrate 1 {player}'
   93:
     - type: command
       executor: console
@@ -188,14 +196,9 @@ levels:
 
   70:
     # 3 têtes de wither
-    - type: item
-      material: wither_skeleton_skull
-      amount: 3
-      display_name: '<dark_gray><bold>Crâne de Wither'
-      lore:
-        - '<gray>Trophée des profondeurs infernales'
-        - '<red>Pouvoir destructeur immense'
-        - '<gold>Niveau Fighting: 70'
+    - type: command
+      executor: console
+      command: 'give {player} wither_skeleton_skull 3'
     - type: command
       executor: console
       command: 'cc give physical combatcrate 1 {player}'
@@ -207,14 +210,10 @@ levels:
       command: 'cc give physical goldencrate 1 {player}'
 
   90:
-    # Espace libre - exemple de récompense temporaire
-    - type: item
-      material: experience_bottle
-      amount: 25
-      display_name: '<red><bold>Récompense Temporaire'
-      lore:
-        - '<gray>En attente de définition'
-        - '<gold>Niveau Fighting: 90'
+    # 25 bouteilles d'expérience
+    - type: command
+      executor: console
+      command: 'give {player} experience_bottle 128'
     - type: command
       executor: console
       command: 'cc give physical combatcrate 1 {player}'

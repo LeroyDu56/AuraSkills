@@ -48,6 +48,10 @@ levels:
     - type: command
       executor: console
       command: 'cc give physical fishcrate 1 {player}'
+  30:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 {player}'
   33:
     - type: command
       executor: console
@@ -124,6 +128,10 @@ levels:
     - type: command
       executor: console
       command: 'cc give physical fishcrate 1 {player}'
+  90:
+    - type: command
+      executor: console
+      command: 'cc give physical fishcrate 1 {player}'
   93:
     - type: command
       executor: console
@@ -139,22 +147,10 @@ levels:
 
   # === RÉCOMPENSES SPÉCIALES ===
   10:
-    # Canne à pêche full enchantée
-    - type: item
-      material: fishing_rod
-      amount: 1
-      display_name: '<blue><bold>Canne du Pêcheur Expert'
-      lore:
-        - '<gray>Canne des maîtres de la pêche'
-        - '<aqua>Attire les trésors des profondeurs'
-        - '<gold>Niveau Fishing: 10'
-      enchantments:
-        - luck_of_the_sea:3
-        - lure:3
-        - unbreaking:3
-        - mending:1
-      flags:
-        - hide_enchants
+    # Canne à pêche enchantée
+    - type: command
+      executor: console
+      command: 'give {player} fishing_rod 1'
 
   30:
     # Spawner Guardian (1 spawner)
@@ -176,23 +172,9 @@ levels:
 
   70:
     # Casque de tortue
-    - type: item
-      material: turtle_helmet
-      amount: 1
-      display_name: '<green><bold>Heaume de Tortue Marine'
-      lore:
-        - '<gray>Protection des créatures marines'
-        - '<aqua>Respiration aquatique naturelle'
-        - '<green>Carapace des anciens'
-        - '<gold>Niveau Fishing: 70'
-      enchantments:
-        - aqua_affinity:1
-        - respiration:3
-        - unbreaking:3
-        - mending:1
-        - protection:4
-      flags:
-        - hide_enchants
+    - type: command
+      executor: console
+      command: 'give {player} turtle_helmet 1'
     - type: command
       executor: console
       command: 'cc give physical fishcrate 1 {player}'
@@ -204,25 +186,10 @@ levels:
       command: 'cc give physical goldencrate 1 {player}'
 
   90:
-    # Trident full enchanté
-    - type: item
-      material: trident
-      amount: 1
-      display_name: '<dark_aqua><bold>Trident de Poséidon'
-      lore:
-        - '<gray>Arme des dieux des océans'
-        - '<aqua>Maîtrise les tempêtes et les marées'
-        - '<blue>Pouvoir sur les créatures marines'
-        - '<gold>Niveau Fishing: 90'
-      enchantments:
-        - loyalty:3
-        - impaling:5
-        - channeling:1
-        - riptide:3
-        - unbreaking:3
-        - mending:1
-      flags:
-        - hide_enchants
+    # Trident
+    - type: command
+      executor: console
+      command: 'give {player} trident 1'
     - type: command
       executor: console
       command: 'cc give physical fishcrate 1 {player}'

@@ -48,6 +48,10 @@ levels:
     - type: command
       executor: console
       command: 'cc give physical mineurcrate 1 {player}'
+  30:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 {player}'
   33:
     - type: command
       executor: console
@@ -124,6 +128,10 @@ levels:
     - type: command
       executor: console
       command: 'cc give physical mineurcrate 1 {player}'
+  90:
+    - type: command
+      executor: console
+      command: 'cc give physical mineurcrate 1 {player}'
   93:
     - type: command
       executor: console
@@ -140,49 +148,33 @@ levels:
   # === RÉCOMPENSES SPÉCIALES ===
   10:
     # 8 diamants
-    - type: item
-      material: diamond
-      amount: 8
-      display_name: '<aqua><bold>Diamant du Mineur'
-      lore:
-        - '<gray>Diamant extrait des profondeurs'
-        - '<gold>Niveau Mining: 10'
+    - type: command
+      executor: console
+      command: 'give {player} diamond 8'
 
   30:
     # 1 lingot de netherite
-    - type: item
-      material: netherite_ingot
-      amount: 1
-      display_name: '<dark_purple><bold>Lingot de Netherite'
-      lore:
-        - '<gray>Métal des profondeurs infernales'
-        - '<gold>Niveau Mining: 30'
+    - type: command
+      executor: console
+      command: 'give {player} netherite_ingot 1'
     - type: command
       executor: console
       command: 'cc give physical mineurcrate 1 {player}'
 
   50:
     # 1 shulker box
-    - type: item
-      material: shulker_box
-      amount: 1
-      display_name: '<light_purple><bold>Boîte de Shulker'
-      lore:
-        - '<gray>Stockage dimensionnel portable'
-        - '<gold>Niveau Mining: 50'
+    - type: command
+      executor: console
+      command: 'give {player} shulker_box 1'
     - type: command
       executor: console
       command: 'cc give physical mineurcrate 1 {player}'
 
   70:
     # 1 bloc de netherite
-    - type: item
-      material: netherite_block
-      amount: 1
-      display_name: '<dark_purple><bold>Bloc de Netherite'
-      lore:
-        - '<gray>La richesse ultime du mineur'
-        - '<gold>Niveau Mining: 70'
+    - type: command
+      executor: console
+      command: 'give {player} netherite_block 1'
     - type: command
       executor: console
       command: 'cc give physical mineurcrate 1 {player}'
@@ -195,19 +187,9 @@ levels:
 
   90:
     # Boussole de portée +5
-    - type: item
-      material: compass
-      amount: 1
-      display_name: '<yellow><bold>Boussole de Portée'
-      lore:
-        - '<gray>Augmente la portée d''interaction'
-        - '<green>+5 blocs de portée'
-        - '<gold>Niveau Mining: 90'
-      enchantments:
-        - unbreaking:3
-        - mending:1
-      flags:
-        - hide_enchants
+    - type: command
+      executor: console
+      command: 'givecompass {player}'
     - type: command
       executor: console
       command: 'cc give physical mineurcrate 1 {player}'
