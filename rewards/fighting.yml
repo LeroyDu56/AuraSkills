@@ -1,14 +1,14 @@
 patterns:
   - type: stat
     stat: crit_damage
-    value: 1
+    value: 25
     pattern:
       interval: 1
   - type: stat
     stat: regeneration
     value: 1
     pattern:
-      interval: 2
+      interval: 25
 
 levels:
   # === CLÉS COMBATTANT TOUS LES 3 NIVEAUX ===

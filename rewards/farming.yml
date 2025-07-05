@@ -3,12 +3,12 @@ patterns:
     stat: health
     value: 0.4
     pattern:
-      interval: 1
+      interval: 50
   - type: stat
     stat: strength
     value: 1
     pattern:
-      interval: 2
+      interval: 25
 
 levels:
   # === CLÉS FERMIER TOUS LES 3 NIVEAUX ===

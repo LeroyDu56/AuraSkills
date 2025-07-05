@@ -3,12 +3,12 @@ patterns:
     stat: luck
     value: 1
     pattern:
-      interval: 1
+      interval: 25
   - type: stat
     stat: health
     value: 0.4
     pattern:
-      interval: 2
+      interval: 50
 
 levels:
   # === CLÉS PÊCHEUR TOUS LES 3 NIVEAUX ===
