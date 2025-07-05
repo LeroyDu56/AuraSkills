@@ -150,7 +150,7 @@ levels:
     # Canne à pêche enchantée
     - type: command
       executor: console
-      command: 'give {player} fishing_rod 1'
+      command: 'give {player} fishing_rod[enchantments={levels:{"minecraft:luck_of_the_sea":2,"minecraft:lure":2,"minecraft:unbreaking":2}}] 1'
 
   30:
     # Spawner Guardian (1 spawner)
@@ -174,7 +174,7 @@ levels:
     # Casque de tortue
     - type: command
       executor: console
-      command: 'give {player} turtle_helmet 1'
+      command: 'give {player} turtle_helmet[enchantments={levels:{"minecraft:respiration":3,"minecraft:aqua_affinity":1}}] 1'
     - type: command
       executor: console
       command: 'cc give physical fishcrate 1 {player}'
@@ -189,7 +189,7 @@ levels:
     # Trident
     - type: command
       executor: console
-      command: 'give {player} trident 1'
+      command: 'give {player} trident[enchantments={levels:{"minecraft:loyalty":2,"minecraft:impaling":3}}] 1'
     - type: command
       executor: console
       command: 'cc give physical fishcrate 1 {player}'

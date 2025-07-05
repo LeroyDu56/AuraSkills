@@ -17,7 +17,7 @@ abilities:
   auraskills/scythe_master:
     enabled: true
     base_value: 100.0
-    value_per_level: 100.0
+    value_per_level: 10.0
     unlock: 50
     level_up: 4
     max_level: 0
@@ -118,7 +118,7 @@ abilities:
     value_per_level: 5.0
     unlock: 25
     level_up: 5
-    max_level: 0
+    max_level: 5
   auraskills/fisher:
     enabled: true
     base_value: 10.0

@@ -124,9 +124,9 @@ jobs:
   enabled: true
   selection:
     require_selection: true
-    default_job_limit: 2
+    default_job_limit: 1
     disable_unselected_xp: true
-    cooldown_sec: 0
+    cooldown_sec: 604800
 # 604800
   income:
     use_xp: true
