@@ -14,6 +14,7 @@ sources:
   tropical_fish:
     item:
       material: tropical_fish
+      category: fishing_treasure
     xp: 750
   pufferfish:
     item:

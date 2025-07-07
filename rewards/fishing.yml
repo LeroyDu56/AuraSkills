@@ -15,135 +15,135 @@ levels:
   3:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   6:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   9:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   12:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   15:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   18:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   21:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   24:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   27:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   30:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   33:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   36:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   39:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   42:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   45:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   48:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   51:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   54:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   57:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   60:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   63:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   66:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   69:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   72:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   75:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   78:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   81:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   84:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   87:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   90:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   93:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   96:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
   99:
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
 
   # === RÉCOMPENSES SPÉCIALES ===
   10:
@@ -159,7 +159,7 @@ levels:
       command: 'silkspawners give {player} guardian 1'
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
 
   50:
     # Spawner Elder Guardian (1 spawner)
@@ -168,7 +168,7 @@ levels:
       command: 'silkspawners give {player} elder_guardian 1'
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
 
   70:
     # Casque de tortue
@@ -177,22 +177,22 @@ levels:
       command: 'give {player} turtle_helmet[enchantments={levels:{"minecraft:respiration":3,"minecraft:aqua_affinity":1}}] 1'
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
 
   80:
     # Caisse dorée
     - type: command
       executor: console
-      command: 'cc give physical goldencrate 1 {player}'
+      command: 'crazycrates give physical goldencrate 1 {player}'
 
   90:
     # Trident
     - type: command
       executor: console
-      command: 'give {player} trident[enchantments={levels:{"minecraft:loyalty":2,"minecraft:impaling":3}}] 1'
+      command: 'give {player} trident[enchantments={levels:{"minecraft:impaling":5}}] 1'
     - type: command
       executor: console
-      command: 'cc give physical fishcrate 1 {player}'
+      command: 'crazycrates give physical fishcrate 1 {player}'
 
   100:
     # Super canne à pêche légendaire via commande
@@ -201,4 +201,4 @@ levels:
       command: 'givefishingrod {player}'
     - type: command
       executor: console
-      command: 'cc give physical goldencrate 3 {player}'
+      command: 'crazycrates give physical goldencrate 3 {player}'

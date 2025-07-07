@@ -70,7 +70,7 @@ sources:
     xp: 0.5
   netherrack:
     block: netherrack
-    xp: 0.1
+    xp: 0.001
   blackstone:
     block: blackstone
     xp: 0.3
