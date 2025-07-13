@@ -21,9 +21,7 @@ sources:
     type: fishing
     item:
       material: tropical_fish
-    xp: 750.0
-    menu_item:
-      material: tropical_fish
+    xp: 750
   pufferfish:
     type: fishing
     item:

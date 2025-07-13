@@ -127,6 +127,7 @@ jobs:
     default_job_limit: 1
     disable_unselected_xp: true
     cooldown_sec: 604800
+# 604800
   income:
     use_xp: false
     use_expression: false
