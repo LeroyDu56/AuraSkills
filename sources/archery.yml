@@ -11,162 +11,162 @@ sources:
     menu_item:
       material: player_head
   bat:
-    xp: 1.0
+    xp: 5.0
   cat:
-    xp: 1.0
+    xp: 5.0
   chicken:
-    xp: 1.0
+    xp: 5.0
   cod:
-    xp: 1.0
+    xp: 5.0
   cow:
-    xp: 2.0
-  donkey:
-    xp: 2.0
-  fox:
-    xp: 3.0
-  giant:
     xp: 10.0
+  donkey:
+    xp: 10.0
+  fox:
+    xp: 15.0
+  giant:
+    xp: 50.0
     menu_item:
       material: zombie_spawn_egg
   horse:
-    xp: 2.0
-  mooshroom:
-    xp: 2.0
-  mule:
-    xp: 2.0
-  ocelot:
-    xp: 1.0
-  parrot:
-    xp: 1.0
-  pig:
-    xp: 2.0
-  rabbit:
-    xp: 1.0
-  salmon:
-    xp: 1.0
-  sheep:
-    xp: 2.0
-  skeleton_horse:
-    xp: 3.0
-  snow_golem:
-    xp: 3.0
-  squid:
-    xp: 2.0
-  strider:
-    xp: 3.0
-  tropical_fish:
-    xp: 1.0
-  turtle:
-    xp: 2.0
-  villager:
-    xp: 2.0
-  wandering_trader:
-    xp: 2.0
-  bee:
-    xp: 3.0
-  cave_spider:
-    xp: 5.0
-  dolphin:
-    xp: 3.0
-  enderman:
-    xp: 7.0
-  iron_golem:
-    xp: 17.0
-  llama:
-    xp: 4.0
-  piglin:
-    xp: 5.0
-  panda:
-    xp: 5.0
-  polar_bear:
-    xp: 7.0
-  pufferfish:
-    xp: 1.0
-  spider:
-    xp: 5.0
-  wolf:
-    xp: 4.0
-  zombified_piglin:
-    xp: 4.0
-  blaze:
-    xp: 1.0
-  creeper:
     xp: 10.0
-  drowned:
-    xp: 7.0
-  elder_guardian:
-    xp: 1.0
-  endermite:
-    xp: 1.0
-  evoker:
+  mooshroom:
+    xp: 10.0
+  mule:
+    xp: 10.0
+  ocelot:
+    xp: 5.0
+  parrot:
+    xp: 5.0
+  pig:
+    xp: 10.0
+  rabbit:
+    xp: 5.0
+  salmon:
+    xp: 5.0
+  sheep:
+    xp: 10.0
+  skeleton_horse:
     xp: 15.0
+  snow_golem:
+    xp: 15.0
+  squid:
+    xp: 10.0
+  strider:
+    xp: 15.0
+  tropical_fish:
+    xp: 5.0
+  turtle:
+    xp: 10.0
+  villager:
+    xp: 10.0
+  wandering_trader:
+    xp: 10.0
+  bee:
+    xp: 15.0
+  cave_spider:
+    xp: 25.0
+  dolphin:
+    xp: 15.0
+  enderman:
+    xp: 25.0
+  iron_golem:
+    xp: 85.0
+  llama:
+    xp: 20.0
+  piglin:
+    xp: 25.0
+  panda:
+    xp: 25.0
+  polar_bear:
+    xp: 35.0
+  pufferfish:
+    xp: 5.0
+  spider:
+    xp: 25.0
+  wolf:
+    xp: 20.0
+  zombified_piglin:
+    xp: 20.0
+  blaze:
+    xp: 5.0
+  creeper:
+    xp: 50.0
+  drowned:
+    xp: 35.0
+  elder_guardian:
+    xp: 5.0
+  endermite:
+    xp: 5.0
+  evoker:
+    xp: 75.0
   ghast:
-    xp: 17.0
+    xp: 75.0
   guardian:
-    xp: 1.0
+    xp: 5.0
   hoglin:
-    xp: 12.0
+    xp: 60.0
   husk:
-    xp: 7.0
+    xp: 25.0
   illusioner:
-    xp: 17.0
+    xp: 85.0
     menu_item:
       material: evoker_spawn_egg
   magma_cube:
-    xp: 12.0
+    xp: 80.0
   phantom:
-    xp: 10.0
+    xp: 50.0
   piglin_brute:
-    xp: 35.0
+    xp: 175.0
   pillager:
-    xp: 10.0
+    xp: 50.0
   ravager:
-    xp: 100.0
+    xp: 500.0
   shulker:
-    xp: 15.0
+    xp: 75.0
   silverfish:
-    xp: 1.0
-  skeleton:
-    xp: 7.0
-  slime:
     xp: 5.0
+  skeleton:
+    xp: 35.0
+  slime:
+    xp: 25.0
   stray:
-    xp: 8.0
+    xp: 40.0
   vex:
-    xp: 10.0
+    xp: 50.0
   vindicator:
-    xp: 10.0
+    xp: 50.0
   witch:
-    xp: 9.0
+    xp: 45.0
   wither_skeleton:
-    xp: 17.0
+    xp: 85.0
   zoglin:
-    xp: 12.0
+    xp: 80.0
   zombie:
-    xp: 7.0
+    xp: 35.0
   zombie_villager:
-    xp: 7.0
+    xp: 35.0
   ender_dragon:
-    xp: 7000.0
+    xp: 14000.0
   wither:
-    xp: 1000.0
+    xp: 5000.0
   axolotl:
-    xp: 3.5
+    xp: 30.5
   glow_squid:
-    xp: 2.5
+    xp: 30.5
   goat:
-    xp: 3.0
+    xp: 30.0
   allay:
-    xp: 0.2
+    xp: 5.2
   frog:
-    xp: 2.0
+    xp: 5.0
   tadpole:
-    xp: 1.2
+    xp: 5.2
   warden:
-    xp: 8000.0
+    xp: 14000.0
   armadillo:
-    xp: 3.0
+    xp: 25.0
   bogged:
-    xp: 9.0
+    xp: 45.0
   breeze:
     xp: 10.0

@@ -1,34 +1,48 @@
 default:
   type: fishing
   menu_item:
-    material: '{item.material}'
+    material: fishing_rod
 sources:
   cod:
+    type: fishing
     item:
       material: cod
-    xp: 25
+    xp: 25.0
+    menu_item:
+      material: cod
   salmon:
+    type: fishing
     item:
       material: salmon
-    xp: 60
+    xp: 60.0
+    menu_item:
+      material: salmon
   tropical_fish:
+    type: fishing
     item:
       material: tropical_fish
-    xp: 750
+    xp: 750.0
+    menu_item:
+      material: tropical_fish
   pufferfish:
+    type: fishing
     item:
       material: pufferfish
-    xp: 115
+    xp: 115.0
+    menu_item:
+      material: pufferfish
   treasure:
+    type: fishing
     item:
       category: fishing_treasure
-    xp: 1000
+    xp: 1000.0
     menu_item:
       material: name_tag
   junk:
+    type: fishing
     item:
       category: fishing_junk
-    xp: 30
+    xp: 30.0
     menu_item:
       material: stick
   rare:

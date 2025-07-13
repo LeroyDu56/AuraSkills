@@ -127,14 +127,13 @@ jobs:
     default_job_limit: 1
     disable_unselected_xp: true
     cooldown_sec: 604800
-# 604800
   income:
-    use_xp: true
+    use_xp: false
     use_expression: false
     default:
-      income_per_xp: 0.1
-      expression: 0.1*xp
-    use_final_xp: true
+      income_per_xp: 0.0
+      expression: 0.0*xp
+    use_final_xp: false
     batching:
       enabled: false
       interval_ms: 2000
@@ -221,6 +220,7 @@ data_validation:
 on_death:
   reset_skills: false
   reset_xp: false
+  reset_xp_ratio: 0
 auto_save:
   enabled: true
   interval_ticks: 12000
